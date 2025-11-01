@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Kingsley Developer</title>
+    <meta name="description" content="Read articles and tutorials about web development and design">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" class="logo-link">
+                    <span class="logo-text">Kingsley Dev</span>
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="blog.html" class="nav-link active">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Blog Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-content">
+                <h1 class="page-title animate-fade-up">Blog</h1>
+                <p class="page-subtitle animate-fade-up delay-1">Thoughts, tutorials, and insights about web development</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Content -->
+    <section class="blog-content">
+        <div class="container">
+            <div class="blog-layout">
+                <!-- Main Content -->
+                <div class="blog-main">
+                    <!-- Featured Post -->
+                    <article class="blog-post featured-post">
+                        <div class="post-image">
+                            <img src="https://picsum.photos/800/400?random=1" alt="React Performance Optimization">
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-category">Web Development</span>
+                                <span class="post-date">March 15, 2024</span>
+                                <span class="post-read-time">8 min read</span>
+                            </div>
+                            <h2 class="post-title">Advanced React Performance Optimization Techniques</h2>
+                            <p class="post-excerpt">
+                                Discover how to significantly improve your React application's performance with advanced 
+                                optimization techniques including memoization, code splitting, and virtualized lists.
+                            </p>
+                            <div class="post-footer">
+                                <a href="#" class="read-more">Read Full Article <i class="fas fa-arrow-right"></i></a>
+                                <div class="post-stats">
+                                    <span class="post-stat"><i class="fas fa-heart"></i> 42</span>
+                                    <span class="post-stat"><i class="fas fa-comment"></i> 12</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Blog Posts Grid -->
+                    <div class="blog-grid">
+                        <!-- Post 1 -->
+                        <article class="blog-post">
+                            <div class="post-image">
+                                <img src="https://picsum.photos/400/250?random=2" alt="CSS Grid Guide">
+                            </div>
+                            <div class="post-content">
+                                <div class="post-meta">
+                                    <span class="post-category">CSS</span>
+                                    <span class="post-date">March 10, 2024</span>
+                                </div>
+                                <h3 class="post-title">Mastering CSS Grid: A Complete Guide</h3>
+                                <p class="post-excerpt">
+                                    Learn how to create complex, responsive layouts with CSS Grid. This comprehensive guide covers everything from basic concepts to advanced techniques.
+                                </p>
+                                <a href="#" class="read-more">Read More</a>
+                            </div>
+                        </article>
+
+                        <!-- Post 2 -->
+                        <article class="blog-post">
+                            <div class="post-image">
+                                <img src="https://picsum.photos/400/250?random=3" alt="JavaScript ES2023">
+                            </div>
+                            <div class="post-content">
+                                <div class="post-meta">
+                                    <span class="post-category">JavaScript</span>
+                                    <span class="post-date">March 5, 2024</span>
+                                </div>
+                                <h3 class="post-title">New JavaScript Features in ES2023</h3>
+                                <p class="post-excerpt">
+                                    Explore the latest JavaScript features and how they can make your code more readable and maintainable.
+                                </p>
+                                <a href="#" class="read-more">Read More</a>
+                            </div>
+                        </article>
+
+                        <!-- Post 3 -->
+                        <article class="blog-post">
+                            <div class="post-image">
+                                <img src="https://picsum.photos/400/250?random=4" alt="Web Accessibility">
+                            </div>
+                            <div class="post-content">
+                                <div class="post-meta">
+                                    <span class="post-category">Accessibility</span>
+                                    <span class="post-date">February 28, 2024</span>
+                                </div>
+                                <h3 class="post-title">Building Accessible Web Applications</h3>
+                                <p class="post-excerpt">
+                                    Practical tips and techniques for creating web applications that are accessible to everyone, including users with disabilities.
+                                </p>
+                                <a href="#" class="read-more">Read More</a>
+                            </div>
+                        </article>
+
+                        <!-- Post 4 -->
+                        <article class="blog-post">
+                            <div class="post-image">
+                                <img src="https://picsum.photos/400/250?random=5" alt="Vue.js 3">
+                            </div>
+                            <div class="post-content">
+                                <div class="post-meta">
+                                    <span class="post-category">Vue.js</span>
+                                    <span class="post-date">February 20, 2024</span>
+                                </div>
+                                <h3 class="post-title">Vue.js 3 Composition API Deep Dive</h3>
+                                <p class="post-excerpt">
+                                    A comprehensive look at Vue.js 3's Composition API and how it changes the way we build Vue applications.
+                                </p>
+                                <a href="#" class="read-more">Read More</a>
+                            </div>
+                        </article>
+
+                        <!-- Post 5 -->
+                        <article class="blog-post">
+                            <div class="post-image">
+                                <img src="https://picsum.photos/400/250?random=6" alt="Web Security">
+                            </div>
+                            <div class="post-content">
+                                <div class="post-meta">
+                                    <span class="post-category">Security</span>
+                                    <span class="post-date">February 15, 2024</span>
+                                </div>
+                                <h3 class="post-title">Essential Web Security Practices</h3>
+                                <p class="post-excerpt">
+                                    Learn about common web security vulnerabilities and how to protect your applications from attacks.
+                                </p>
+                                <a href="#" class="read-more">Read More</a>
+                            </div>
+                        </article>
+
+                        <!-- Post 6 -->
+                        <article class="blog-post">
+                            <div class="post-image">
+                                <img src="https://picsum.photos/400/250?random=7" alt="UI Design Systems">
+                            </div>
+                            <div class="post-content">
+                                <div class="post-meta">
+                                    <span class="post-category">Design</span>
+                                    <span class="post-date">February 10, 2024</span>
+                                </div>
+                                <h3 class="post-title">Creating Scalable Design Systems</h3>
+                                <p class="post-excerpt">
+                                    How to build and maintain design systems that scale with your product and team.
+                                </p>
+                                <a href="#" class="read-more">Read More</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Pagination -->
+                    <div class="pagination">
+                        <a href="#" class="page-link disabled"><i class="fas fa-chevron-left"></i> Previous</a>
+                        <div class="page-numbers">
+                            <a href="#" class="page-number active">1</a>
+                            <a href="#" class="page-number">2</a>
+                            <a href="#" class="page-number">3</a>
+                            <span class="page-ellipsis">...</span>
+                            <a href="#" class="page-number">8</a>
+                        </div>
+                        <a href="#" class="page-link">Next <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <aside class="blog-sidebar">
+                    <!-- Search -->
+                    <div class="sidebar-widget">
+                        <h3>Search Blog</h3>
+                        <div class="search-box">
+                            <input type="text" placeholder="Search articles..." class="search-input">
+                            <button class="search-btn"><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- Categories -->
+                    <div class="sidebar-widget">
+                        <h3>Categories</h3>
+                        <ul class="categories-list">
+                            <li><a href="#">Web Development <span class="category-count">12</span></a></li>
+                            <li><a href="#">JavaScript <span class="category-count">8</span></a></li>
+                            <li><a href="#">CSS <span class="category-count">6</span></a></li>
+                            <li><a href="#">React <span class="category-count">5</span></a></li>
+                            <li><a href="#">Vue.js <span class="category-count">3</span></a></li>
+                            <li><a href="#">UI/UX Design <span class="category-count">7</span></a></li>
+                            <li><a href="#">Accessibility <span class="category-count">4</span></a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Popular Posts -->
+                    <div class="sidebar-widget">
+                        <h3>Popular Posts</h3>
+                        <div class="popular-posts">
+                            <div class="popular-post">
+                                <div class="popular-post-image">
+                                    <img src="https://picsum.photos/80/60?random=8" alt="Popular Post">
+                                </div>
+                                <div class="popular-post-content">
+                                    <h4><a href="#">Understanding CSS Flexbox</a></h4>
+                                    <span class="post-date">Jan 15, 2024</span>
+                                </div>
+                            </div>
+                            <div class="popular-post">
+                                <div class="popular-post-image">
+                                    <img src="https://picsum.photos/80/60?random=9" alt="Popular Post">
+                                </div>
+                                <div class="popular-post-content">
+                                    <h4><a href="#">Node.js Best Practices</a></h4>
+                                    <span class="post-date">Feb 2, 2024</span>
+                                </div>
+                            </div>
+                            <div class="popular-post">
+                                <div class="popular-post-image">
+                                    <img src="https://picsum.photos/80/60?random=10" alt="Popular Post">
+                                </div>
+                                <div class="popular-post-content">
+                                    <h4><a href="#">Mobile-First Design</a></h4>
+                                    <span class="post-date">Feb 18, 2024</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tags -->
+                    <div class="sidebar-widget">
+                        <h3>Tags</h3>
+                        <div class="tags-cloud">
+                            <a href="#" class="tag">JavaScript</a>
+                            <a href="#" class="tag">React</a>
+                            <a href="#" class="tag">Vue</a>
+                            <a href="#" class="tag">CSS</a>
+                            <a href="#" class="tag">HTML5</a>
+                            <a href="#" class="tag">Node.js</a>
+                            <a href="#" class="tag">TypeScript</a>
+                            <a href="#" class="tag">Webpack</a>
+                            <a href="#" class="tag">Accessibility</a>
+                            <a href="#" class="tag">Performance</a>
+                        </div>
+                    </div>
+
+                    <!-- Newsletter -->
+                    <div class="sidebar-widget newsletter-widget">
+                        <h3>Newsletter</h3>
+                        <p>Get the latest articles and tutorials delivered to your inbox.</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Your email address" required>
+                            <button type="submit" class="btn btn-primary btn-full">Subscribe</button>
+                        </form>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Alex Developer</h3>
+                    <p>Creating digital experiences that make a difference.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">UI/UX Design</a></li>
+                        <li><a href="#">E-commerce</a></li>
+                        <li><a href="#">Consulting</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> hello@kingsleydev.com</p>
+                        <p><i class="fas fa-phone"></i> +2349126027765</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Port Harcourt, Rivers state</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Kingsley Developer. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/blog-search.js"></script>
+</body>
+</html>
